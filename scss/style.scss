@@ -1,0 +1,70 @@
+body { 
+	background-color: green;
+	color: #333;	
+}
+
+.new-post {
+	background-color: #eee;
+	border: 1px solid #444;
+	border-radius: .5em;
+	padding: .25em;
+	textarea {
+		height: 7em;
+	}
+	clear: both;
+}
+
+.right {
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.new-comment {
+	margin-top: 1em;
+	background-color: #eee;
+	border: 1px solid #444;
+	border-radius: .25em;
+	padding: .25em;
+	textarea {
+		height: 4em;
+	}
+	margin-left: 10%;
+		
+
+	
+}
+.dont-show {
+	display: none;
+}
+.post-info {
+	display: inline-block;
+}
+h2.post-info  {
+	margin-top: 0;
+}
+.post-info-right {
+	display: inline-block;
+	float:right;
+}
+
+.clock-span, .date-span, .post-time {
+	font-size: .75em;
+	color: #444;
+	font-style: italic;
+}
+
+.user-post {
+	background-color: #eee;
+	padding: .5em;
+	margin-top: 1em;
+	border-radius: .25em;
+}
+.post-title {
+	font-weight: bold;
+}
+
+
